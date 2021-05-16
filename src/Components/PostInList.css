@@ -1,0 +1,18 @@
+.PostInList{
+  width:50vw;
+  display: flex;
+ align-items: center;
+  justify-content: space-between;
+ margin:10px 50px 10px 50px;
+ border:black 2px solid;
+ border-radius:10px;
+ font-family: 'Dosis', sans-serif;
+ padding:15px;
+ background-color: white;
+ 
+}
+
+.fontSize{
+  font-size: 24px;
+  font-weight:bold;
+}
