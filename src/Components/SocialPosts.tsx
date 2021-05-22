@@ -17,7 +17,7 @@ function SocialPosts() {
     setDisplay(false);
   }
 
-  function handleDeletePost(index:number){
+  function handleDeletePost(index:number):void{
     setPosts(prevPosts => [
       ...prevPosts.slice(0,index),
       ...prevPosts.slice(index +1)
